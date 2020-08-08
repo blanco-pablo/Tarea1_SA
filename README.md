@@ -14,13 +14,13 @@ Conceptos básicos de SOA
 
 ## Caracteristicas :necktie:
 
-* Es un lenguaje débilmente tipado, se reconocen cuatro tipos de datos:
-    * Entero
-    * Punto flotante
-    * Cadena 
-    * Arreglos
+* Formulario para crear contacto
+    * Nombre (String)
+    * catid (Entero)
+    * language (String)
+    * published (Entero)
 
-* Flujo de control se proporciona la declaración de etiquetas
+* Link con filtro por carnet
 
 # Herramientas
 
@@ -46,7 +46,7 @@ Express esta disponible para que cualquier usuarios pueda descargarlo de forma t
 
 ### Pre-requisitos 🛠️
 
-1.  [H](https://pypi.org/project/subprocess.run/)
+1.  [Intalar](https://pypi.org/project/subprocess.run/)
 Este paquete facilita la creación y representación de descripciones gráficas en el lenguaje DOT del software Graphviz Graph Drawing de Python.
 ```bash
 pip install graphviz
