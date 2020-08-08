@@ -1,0 +1,21 @@
+html(lang="en")
+	head
+		title Tarea 2
+		meta(charset="UTF-8")
+		link(rel="stylesheet" type="text/css" href="public/css/style.css")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+	body
+		h1 Crear Contacto
+		form(action="/guardar", method="post" name="formDatosPersonales")
+			label(for="nombre") Nombre: 
+			input(type="text" name="nombre" id="nombre")
+			label catid:
+			input(type="text" name="catid" id="catid")
+			label language:
+			input(type="text" name="language" id="language")
+			label published:
+			input(type="text" name="published" id="published")
+			input(type="submit" class="btn" value="Crear")
+		h1 Filtro por 201504242
+			p 
+				a(href="http://localhost:3000/lista", target="_blank", rel="noopener noreferrer") Click Aqui

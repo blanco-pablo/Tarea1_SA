@@ -1,6 +1,6 @@
-# Practica 1 - 201504242
+# Practica 2 - 201504242
 
-Conceptos básicos de SOA
+Continuacion de [Practica 1](https://github.com/blanco-pablo/Tarea1_SA) -> Conceptos básicos de SOA
 
 ## Autor ✒️
 
@@ -8,9 +8,10 @@ Conceptos básicos de SOA
 
 ## Restricciones 🚀
 
-* Utilizar api.softwareavanzado.world para desarrollar un cliente de webservice: [AQUI](https://api.softwareavanzado.world/index.php?webserviceClient=administrator&webserviceVersion=1.0.0&option=contact&api=hal&format=doc)
-* Listar contactos.
-* Crear 10 contactos incluyendo su número de carnet en el nombre.
+* __Parte 1:__ Repetir la práctica # 1 agregando credenciales tipo client_credentials y un token Bearer para poder volver a desarrollar el mismo ejercicio anterior (ahora requiere autenticación).
+
+* __Parte 2:__ Repetir la misma tarea # 1 utilizando SOAP y autenticación básica
+
 
 ## Caracteristicas :necktie:
 
