@@ -1,6 +1,6 @@
 html(lang="en")
 	head
-		title Tarea 2
+		title Tarea 2 - Parte 1
 		meta(charset="UTF-8")
 		link(rel="stylesheet" type="text/css" href="public/css/style.css")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -8,13 +8,13 @@ html(lang="en")
 		h1 Crear Contacto
 		form(action="/guardar", method="post" name="formDatosPersonales")
 			label(for="nombre") Nombre: 
-			input(type="text" name="nombre" id="nombre")
+			input(type="text" name="nombre" id="nombre" placeholder="Nombre (String)")
 			label catid:
-			input(type="text" name="catid" id="catid")
+			input(type="text" name="catid" id="catid" placeholder="CatId (Int)")
 			label language:
-			input(type="text" name="language" id="language")
+			input(type="text" name="language" id="language" placeholder="Language (String)")
 			label published:
-			input(type="text" name="published" id="published")
+			input(type="text" name="published" id="published" placeholder="Published (Int)")
 			input(type="submit" class="btn" value="Crear")
 		h1 Filtro por 201504242
 			p 

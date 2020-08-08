@@ -9,9 +9,10 @@ Continuacion de [Practica 1](https://github.com/blanco-pablo/Tarea1_SA) -> Conce
 ## Restricciones 🚀
 
 * __Parte 1:__ Repetir la práctica # 1 agregando credenciales tipo client_credentials y un token Bearer para poder volver a desarrollar el mismo ejercicio anterior (ahora requiere autenticación).
+[Click Aqui](https://github.com/blanco-pablo/Tarea1_SA/tree/Practica2_SA/Parte%201) para ir a la parte 1.
 
 * __Parte 2:__ Repetir la misma tarea # 1 utilizando SOAP y autenticación básica
-
+[Click Aqui](https://github.com/blanco-pablo/Tarea1_SA/tree/Practica2_SA/Parte%202) para ir a la parte 2.
 
 ## Caracteristicas :necktie:
 
