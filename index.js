@@ -11,6 +11,7 @@ var express = require('express');
 var soap = require('soap'); 
 var url = "https://api.softwareavanzado.world/index.php?webserviceClient=administrator&webserviceVersion=1.0.0&option=contact&api=soap&pageLimit=100&wsdl"; 
 
+// Metodo POST para guardar el formulario que se lleno
 app.post('/guardar', function (req, res) {
     var args = {
         name:req.body.nombre,
@@ -18,6 +19,7 @@ app.post('/guardar', function (req, res) {
         language:req.body.language,
         published:req.body.published
     }; 
+    //Se crear el SOAP
     soap.createClient(url,function(err,client){
         if(err){
             console.error(err); 
@@ -33,12 +35,14 @@ app.post('/guardar', function (req, res) {
                 }) 
             } 
         });
-
 });
+
+//Metodo GET para renderizar el formulario
 app.get('/', function (req, res) { 
     res.render("home");
 });
 
+//Metodo GET para listar el filtro por carnet 201504242
 app.get('/lista', function (req, res) {
     var url2 = "https://api.softwareavanzado.world/index.php?webserviceClient=administrator&webserviceVersion=1.0.0&option=contact&api=soap&wsdl"; 
     var args2= {filterSearch:201504242};

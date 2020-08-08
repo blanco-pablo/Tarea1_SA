@@ -46,16 +46,19 @@ Express esta disponible para que cualquier usuarios pueda descargarlo de forma t
 
 ### Pre-requisitos 🛠️
 
-1.  [Intalar](https://pypi.org/project/subprocess.run/)
-Este paquete facilita la creación y representación de descripciones gráficas en el lenguaje DOT del software Graphviz Graph Drawing de Python.
-```bash
-pip install graphviz
+1. Clonar el repositorio: https://github.com/blanco-pablo/Tarea1_SA
+```
+git clone https://github.com/blanco-pablo/Tarea1_SA
 ```
 
-# Componentes
+2. Correr el comando para descargar las dependencias especificadas en el package.json
+```
+npm install
+```
 
-#### Apariencia General
-
-![Augus](Graficos/todo.jpg)
-
+3. Ejecutar
+```
+node index.js
+```
+4. En el navegador abrir http://localhost:3000/
 
