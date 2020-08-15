@@ -106,41 +106,7 @@ app.get('/lista', function (req, res) {
             } 
         }
     );
-    /*request.post(
-        url_credenciales,
-        { json: { 
-            grant_type: 'client_credentials',
-            client_id: usuario,
-            client_secret: secret 
-        }},
-        function (error, response, body) {
-            if (!error && response.statusCode == 200) {
-                //Obtenemos el token
-                var token = body.access_token;
-                var url_lista = "https://api.softwareavanzado.world/index.php?webserviceClient=administrator&webserviceVersion=1.0.0&option=contact&api=hal&list[limit]=0&filter[search]=201504242"
-                request.get({
-                    url: url_lista,
-                    headers: {
-                        "Content-Type":"application/json",
-                        "Authorization": "Bearer "+token
-                    }}, 
-                    function (err, resp, b) {
-                        if (!err) {
-                            //Retorno el filtro que me devuelve la API
-                            res.send(resp.body);
-                        }else{
-                            //Retorno el error
-                            res.send(e);
-                        }
-                    }
-                );
-            }
-        }
-    );*/
 });
-
-
-
 //-------------------------------------------------
 //----------------------- FIN ---------------------
 //-------------------------------------------------

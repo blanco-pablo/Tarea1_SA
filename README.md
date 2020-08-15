@@ -44,21 +44,35 @@ __Aca el [link](https://code.visualstudio.com/download) de descarga.__
     Fast, unopinionated, minimalist web framework for node JS.
     Express esta disponible para que cualquier usuarios pueda descargarlo de forma totalmente gratuita desde el __[siguiente enlace](https://www.npmjs.com/package/express)__
 
+# Pre-Requisitos :bulb:
+
+1. __Node JS:__ Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. [Link de Descarga ACA.](https://nodejs.org/es/download/)
+
+2. __NPM:__ npm es el sistema de gestión de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript, bajo Artistic License 2.0. [Link de Descarga ACA.](https://www.npmjs.com/get-npm)
+
+* Para verificar si tiene Node.js instalado, ejecute este comando en su terminal:
+```bash
+node -v
+```
+* Para confirmar que tiene npm instalado, puede ejecutar este comando en su terminal:
+```bash
+npm -v
+```
 # Uso 🛠️
 
 1. Clonar el repositorio: https://github.com/blanco-pablo/Tarea1_SA en la rama __Practica2_SA__
-```
+```bash
 git clone --branch Practica2_SA https://github.com/blanco-pablo/Tarea1_SA
 ```
 * Entre a la carpeta que quiere ejecutar:
+```bash
+cd '.\Parte 1\'
 ```
-cd '.\Parte 1\
-```
-```
-cd '.\Parte 2\
+```bash
+cd '.\Parte 2\'
 ```
 2. Correr el comando para descargar las dependencias especificadas en el package.json
-```
+```bash
 npm install
 ```
 
@@ -69,7 +83,7 @@ npm install
     * "request": "^2.88.2", documentacion [aqui](https://expressjs.com/es/api.html)
 
 3. Ejecutar
-```
+```bash
 node index.js
 ```
 4. En el navegador abrir http://localhost:3000/
