@@ -5,7 +5,7 @@ html(lang="en")
 		link(rel="stylesheet" type="text/css" href="public/css/style.css")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 	body
-		h1 Crear Contacto
+		h1 Crear Contacto - Parte 1
 		form(action="/guardar", method="post" name="formDatosPersonales")
 			label(for="nombre") Nombre: 
 			input(type="text" name="nombre" id="nombre" placeholder="Nombre (String)")
@@ -16,6 +16,6 @@ html(lang="en")
 			label published:
 			input(type="text" name="published" id="published" placeholder="Published (Int)")
 			input(type="submit" class="btn" value="Crear")
-		h1 Filtro por 201504242
-			p 
+		h2 Filtro por 201504242
+			span 
 				a(href="http://localhost:3000/lista", target="_blank", rel="noopener noreferrer") Click Aqui

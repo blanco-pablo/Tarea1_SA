@@ -1,5 +1,14 @@
 *{box-sizing:border-box;}
 
+h1 {
+	color: #183ea8;
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+	font-family: Arial;
+	text-transform: uppercase;
+  }
+
 form{
 	width:300px;
 	padding:16px;

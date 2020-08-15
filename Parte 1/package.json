@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-soap": "^1.1.2",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "request": "^2.88.2"
   }
 }

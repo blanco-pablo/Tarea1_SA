@@ -24,39 +24,49 @@ Continuacion de [Practica 1](https://github.com/blanco-pablo/Tarea1_SA) -> Conce
 
 * Link con filtro por carnet
 
-# Herramientas
+# Herramientas :hammer:
 
-## Visual Studio Code
+* __Visual Studio Code__
 
-Version: 1.47.3 (user setup)
-Commit: 91899dcef7b8110878ea59626991a18c8a6a1b3e
-Date: 2020-07-23T13:12:49.994Z
-Electron: 7.3.2
-Chrome: 78.0.3904.130
-Node.js: 12.8.1
-V8: 7.8.279.23-electron.0
-OS: Windows_NT x64 10.0.18362
+    Version: 1.47.3 (user setup)
+    Commit: 91899dcef7b8110878ea59626991a18c8a6a1b3e
+    Date: 2020-07-23T13:12:49.994Z
+    Electron: 7.3.2
+    Chrome: 78.0.3904.130
+    Node.js: 12.8.1
+    V8: 7.8.279.23-electron.0
+    OS: Windows_NT x64 10.0.18362
 
 __Aca el [link](https://code.visualstudio.com/download) de descarga.__
 
-## Express
+* __Express__
 
-Fast, unopinionated, minimalist web framework for node JS.
-Express esta disponible para que cualquier usuarios pueda descargarlo de forma totalmente gratuita desde el __[siguiente enlace](https://www.npmjs.com/package/express)__
+    Fast, unopinionated, minimalist web framework for node JS.
+    Express esta disponible para que cualquier usuarios pueda descargarlo de forma totalmente gratuita desde el __[siguiente enlace](https://www.npmjs.com/package/express)__
 
-# Uso
+# Uso 🛠️
 
-### Pre-requisitos 🛠️
-
-1. Clonar el repositorio: https://github.com/blanco-pablo/Tarea1_SA
+1. Clonar el repositorio: https://github.com/blanco-pablo/Tarea1_SA en la rama __Practica2_SA__
 ```
-git clone https://github.com/blanco-pablo/Tarea1_SA
+git clone --branch Practica2_SA https://github.com/blanco-pablo/Tarea1_SA
 ```
-
+* Entre a la carpeta que quiere ejecutar:
+```
+cd '.\Parte 1\
+```
+```
+cd '.\Parte 2\
+```
 2. Correr el comando para descargar las dependencias especificadas en el package.json
 ```
 npm install
 ```
+
+* Podremos ver que instala las siguientes dependencias:
+    * "express": "^4.17.1", documentacion [aqui](https://www.npmjs.com/package/express)
+    * "express-soap": "^1.1.2", documentacion [aqui](https://www.npmjs.com/package/express-soap)
+    * "jade": "^1.11.0", documentacion [aqui](https://www.npmjs.com/package/express-jade)
+    * "request": "^2.88.2", documentacion [aqui](https://expressjs.com/es/api.html)
 
 3. Ejecutar
 ```
@@ -64,3 +74,5 @@ node index.js
 ```
 4. En el navegador abrir http://localhost:3000/
 
+* Cargara la siguiente pagina:
+![Imagen](/ima.jpg)
