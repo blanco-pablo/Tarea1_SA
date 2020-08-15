@@ -1,0 +1,21 @@
+html(lang="en")
+	head
+		title Tarea 2 - Parte 2
+		meta(charset="UTF-8")
+		link(rel="stylesheet" type="text/css" href="public/css/style.css")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+	body
+		h1 Crear Contacto - Parte 2
+		form(action="/guardar", method="post" name="formDatosPersonales")
+			label(for="nombre") Nombre: 
+			input(type="text" name="nombre" id="nombre" placeholder="Nombre (String)")
+			label catid:
+			input(type="text" name="catid" id="catid" placeholder="CatId (Int)")
+			label language:
+			input(type="text" name="language" id="language" placeholder="Language (String)")
+			label published:
+			input(type="text" name="published" id="published" placeholder="Published (Int)")
+			input(type="submit" class="btn" value="Crear")
+		h2 Filtro por 201504242
+			span 
+				a(href="http://localhost:3000/lista", target="_blank", rel="noopener noreferrer") Click Aqui
